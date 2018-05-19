@@ -1,6 +1,13 @@
 body {
   font-family: "Helvetica", sans-serif;
   text-align: center;
+  max-width: 1280px;
+  background-color: black;
+  margin: 0 auto;
+}
+
+#wrapper {
+  background-color: white;
 }
 
 h1 {
@@ -23,10 +30,20 @@ p {
   font-size: 14px;
 }
 
+a {
+  font-size: 18px;
+  color: white;
+}
+
 img {
   display: block;
   clear: both;
   margin: 2em auto;
+}
+
+.bgImage {
+  background-image: url("images/the-flatiron-building.png");
+  width: 100%;
 }
 
 .whiteText {
