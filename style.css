@@ -51,6 +51,11 @@ img {
 }
 
 .copyright {
-  font-size: 11px;
   background-color: dimgray;
+  text-align: left;
+}
+
+.copyright p, .copyright p a {
+  font-size: 11px;
+  color: white;
 }
